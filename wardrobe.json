@@ -827,5 +827,14 @@
         "colors": ["black"],
         "styles": ["edgy", "dressy"],
         "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 90,
+        "name": "Uggs Boots",
+        "category": "shoes",
+        "subcategory":"boots",
+        "colors": ["beige"],
+        "styles": ["casual", "cozy"],
+        "seasons": ["fall","winter"]
     }
 ]
