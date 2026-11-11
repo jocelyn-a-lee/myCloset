@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myCloset</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <header>
+        <h1>myCloset</h1>
+        <nav>
+            <a href="/">Today's Outfit</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="eyebrow">YOUR PERSONAL WARDROBE</p>
+            <h2>What are we wearing today?</h2>
+            <p>A little outfit magic, every day.</p>
+        </section>
+
+        <section class="generator">
+    <form method="POST">
+        <label for="season">Select your season</label>
+
+        <select name="season" id="season">
+            {% for option in ["spring", "summer", "fall", "winter", "any"] %}
+                <option value="{{ option }}"
+                    {% if season == option %}selected{% endif %}>
+                    {{ option | capitalize }}
+                </option>
+            {% endfor %}
+        </select>
+
+        <button type="submit">Generate my outfit ✧</button>
+    </form>
+</section>
+
+        
+<section class="outfit-grid">
+
+    <div class="outfit-card">
+        <p class="eyebrow">01 / TOP</p>
+        <span class="symbol">♡</span>
+        <h3>Top</h3>
+        <p>{{ outfit["top"]["name"] if outfit else "Awaiting selection" }}</p>
+    </div>
+
+    <div class="outfit-card">
+        <p class="eyebrow">02 / BOTTOMS</p>
+        <span class="symbol">♡</span>
+        <h3>Bottoms</h3>
+        <p>{{ outfit["bottoms"]["name"] if outfit else "Awaiting selection" }}</p>
+    </div>
+
+    <div class="outfit-card">
+        <p class="eyebrow">03 / SHOES</p>
+        <span class="symbol">♡</span>
+        <h3>Shoes</h3>
+        <p>{{ outfit["shoes"]["name"] if outfit else "Awaiting selection" }}</p>
+    </div>
+
+    <div class="outfit-card">
+        <p class="eyebrow">04 / ACCESSORY</p>
+        <span class="symbol">♡</span>
+        <h3>Accessory</h3>
+        <p>{{ outfit["accessories"]["name"] if outfit["accessories"] else "No accessory" }}</p>
+    </div>
+
+</section>
+
+{% if outfit %}
+    <section class="outfit-score">
+        <p class="eyebrow">Compatibility score</p>
+        <h2>{{ score }}</h2>
+
+        {% if score >= 20 %}
+            <p>Outfit accepted!</p>
+        {% else %}
+            <p>Best available outfit</p>
+        {% endif %}
+    </section>
+{% elif outfit is not none %}
+    <p class="outfit-score">No compatible outfits found. Try another season.</p>
+{% endif %}
+
+    </main>
+
+    <footer>Your wardrobe. Endless possibilities.</footer>
+
+</body>
+</html>

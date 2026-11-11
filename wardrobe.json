@@ -1,0 +1,831 @@
+[
+    {
+        "id": 1,
+        "name": "Black Lululemon Shirt",
+        "category": "tops",
+        "subcategory": "t-shirt",
+        "colors": ["black"],
+        "styles": ["athletic", "casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 2,
+        "name": "Red Off Shoulder Sweater",
+        "category": "tops",
+        "subcategory": "sweater",
+        "colors": ["burgundy"],
+        "styles": ["casual", "dressy"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 3,
+        "name": "Low Rise Jeans",
+        "category": "bottoms",
+        "subcategory": "jeans",
+        "colors": ["blue"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 4,
+        "name": "Doc Marten's Mary Janes",
+        "category": "shoes",
+        "subcategory": "mary_janes",
+        "colors": ["black"],
+        "styles": ["dressy", "casual"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 5,
+        "name": "Knit Bandana",
+        "category": "accessories",
+        "subcategory": "hair_accessory",
+        "colors": ["cream"],
+        "styles": ["boho"],
+        "seasons": ["spring", "summer", "fall"]
+    },
+    {
+        "id": 6,
+        "name": "Black Aerie Flare Leggings",
+        "category": "bottoms",
+        "subcategory": "leggings",
+        "colors": ["black"],
+        "styles": ["athletic", "casual", "cozy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 7,
+        "name": "Red Low Top Jordan's",
+        "category": "shoes",
+        "subcategory": "sneakers",
+        "colors": ["red", "black", "white"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 8,
+        "name": "Light Wash Boot Cut Jeans",
+        "category": "bottoms",
+        "subcategory": "jeans",
+        "colors": ["denim"],
+        "styles": ["casual", "western"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 9,
+        "name": "Dark Wash Boot Cut Jeans",
+        "category": "bottoms",
+        "subcategory": "jeans",
+        "colors": ["denim"],
+        "styles": ["casual", "western"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 10,
+        "name": "Gold Hoop Earrings",
+        "category": "accessories",
+        "subcategory": "earrings",
+        "colors": ["gold"],
+        "styles": ["casual", "dressy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 11,
+        "name": "Green Aerie Flare Leggings",
+        "category": "bottoms",
+        "subcategory": "leggings",
+        "colors": ["dark_green"],
+        "styles": ["athletic", "casual", "cozy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 12,
+        "name": "Pink Hollister Zip Up Jacket",
+        "category": "outerwear",
+        "subcategory": "jacket",
+        "colors": ["pink"],
+        "styles": ["casual", "cozy"],
+        "seasons": ["spring", "fall", "winter"]
+    },
+    {
+        "id": 13,
+        "name": "Black Sweatpants",
+        "category": "bottoms",
+        "subcategory": "sweatpants",
+        "colors": ["black"],
+        "styles": ["cozy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 14,
+        "name": "White T-Shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["white"],
+        "styles": ["cozy", "casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 15,
+        "name": "Brown Birkenstocks",
+        "category": "shoes",
+        "subcategory": "sandals",
+        "colors": ["brown"],
+        "styles": ["boho", "casual"],
+        "seasons": ["spring", "summer"]
+    },
+    {
+        "id": 16,
+        "name": "Pink Adidas Sambas",
+        "category": "shoes",
+        "subcategory": "sneakers",
+        "colors": ["pink"],
+        "styles": ["casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 17,
+        "name": "Green High Top Jordan's",
+        "category": "shoes",
+        "subcategory": "sneakers",
+        "colors": ["dark_green", "white"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 18,
+        "name": "Blue Low Top Jordan's",
+        "category": "shoes",
+        "subcategory": "sneakers",
+        "colors": ["blue"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 19,
+        "name": "New Balance Tennis Shoes",
+        "category": "shoes",
+        "subcategory": "sneakers",
+        "colors": ["white", "gray"],
+        "styles": ["athletic", "casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 20,
+        "name": "Uggs Tasmans",
+        "category": "shoes",
+        "subcategory": "slippers",
+        "colors": ["brown"],
+        "styles": ["casual", "cozy"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 21,
+        "name": "Dexter and the Moonrocks T-Shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["dark_green", "orange", "brown"],
+        "styles": ["casual", "edgy", "western"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 22,
+        "name": "Lee Cropped T-shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["blue", "red", "white"],
+        "styles": ["casual", "athletic"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 23,
+        "name": "Lee Flames T-Shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["gray", "red", "white"],
+        "styles": ["casual", "athletic"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 24,
+        "name": "Hotdog Crop Top",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["cream", "red"],
+        "styles": ["casual"],
+        "seasons": ["summer"]
+    },
+    {
+        "id": 25,
+        "name": "On Time Vive Camp T-Shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["gray", "teal", "red"],
+        "styles": ["casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 26,
+        "name": "Jesus Loves You T-Shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["black", "red", "white"],
+        "styles": ["casual", "athletic"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 27,
+        "name": "Silverdale Students T-Shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["pink", "white"],
+        "styles": ["casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 28,
+        "name": "Jaws T-Shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["black", "red", "blue"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 29,
+        "name": "Unite T-shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["light_green", "white"],
+        "styles": ["casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 30,
+        "name": "I <3 Chapel T-shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["black", "red", "white"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 31,
+        "name": "Jesus Saves T-shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["purple", "yellow", "blue", "pink", "orange", "teal"],
+        "styles": ["casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 32,
+        "name": "Apison T-shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["red", "black"],
+        "styles": ["casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 33,
+        "name": "Made for More T-shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["gray", "cream", "teal", "orange", "pink"],
+        "styles": ["casual", "cozy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 34,
+        "name": "Deke Day T-shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["navy", "red", "white"],
+        "styles": ["casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 35,
+        "name": "All In Vive Camp T-shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["black", "yellow", "white"],
+        "styles": ["casual", "athletic"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 36,
+        "name": "I'll Fly Away T-shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["brown", "white", "blue", "pink"],
+        "styles": ["casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 37,
+        "name": "Def Leppard Off Shoulder T-shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["black", "yellow", "red", "blue", "orange"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 38,
+        "name": "Bronco Crop Top",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["beige", "black", "gray", "blue", "cream"],
+        "styles": ["casual", "western", "edgy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 39,
+        "name": "Wake Vive WKND T-shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["black", "white"],
+        "styles": ["casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 40,
+        "name": "Pickles are Great Crop Top",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["gray", "dark_green"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 41,
+        "name": "Silverdale Kids T-shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["dark_green", "white"],
+        "styles": ["casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 42,
+        "name": "Blue Long Sleeve Shirt",
+        "category": "tops",
+        "subcategory": "long_sleeve",
+        "colors": ["blue"],
+        "styles": ["casual", "dressy"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 43,
+        "name": "Brown Long Sleeve Shirt",
+        "category": "tops",
+        "subcategory": "long_sleeve",
+        "colors": ["brown"],
+        "styles": ["casual", "dressy"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 44,
+        "name": "Red Long Sleeve Cinch Shirt",
+        "category": "tops",
+        "subcategory": "long_sleeve",
+        "colors": ["burgundy"],
+        "styles": ["casual", "dressy"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 45,
+        "name": "Bow Sweater",
+        "category": "tops",
+        "subcategory": "sweater",
+        "colors": ["white", "pink"],
+        "styles": ["dressy", "cozy"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 46,
+        "name": "Cream Sweater",
+        "category": "tops",
+        "subcategory": "sweater",
+        "colors": ["cream"],
+        "styles": ["dressy", "cozy"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 47,
+        "name": "Gray and White Sweater",
+        "category": "tops",
+        "subcategory": "sweater",
+        "colors": ["gray", "white"],
+        "styles": ["dressy", "casual", "cozy"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 48,
+        "name": "American Flag Sweater",
+        "category": "tops",
+        "subcategory": "sweater",
+        "colors": ["red", "white", "blue"],
+        "styles": ["casual", "dressy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 49,
+        "name": "Apres Ski Sweater",
+        "category": "tops",
+        "subcategory": "sweater",
+        "colors": ["beige", "pink", "brown"],
+        "styles": ["casual", "cozy"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 50,
+        "name": "Camo Jersey",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["brown", "cream"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 51,
+        "name": "Black Cropped Tank Top",
+        "category": "tops",
+        "subcategory": "tank_top",
+        "colors": ["black"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 52,
+        "name": "Green Off the Shoulder Sweater",
+        "category": "tops",
+        "subcategory": "sweater",
+        "colors": ["dark_green"],
+        "styles": ["casual", "cozy", "dressy"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 53,
+        "name": "High Rise Cinch Jeans",
+        "category": "bottoms",
+        "subcategory": "jeans",
+        "colors": ["denim"],
+        "styles": ["casual", "dressy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 54,
+        "name": "Camo Joggers",
+        "category": "bottoms",
+        "subcategory": "joggers",
+        "colors": ["dark_green"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 55,
+        "name": "Black Joggers",
+        "category": "bottoms",
+        "subcategory": "joggers",
+        "colors": ["black"],
+        "styles": ["casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 56,
+        "name": "Black Jeans",
+        "category": "bottoms",
+        "subcategory": "jeans",
+        "colors": ["black"],
+        "styles": ["dressy", "casual", "edgy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 57,
+        "name": "Gray Jeans",
+        "category": "bottoms",
+        "subcategory": "jeans",
+        "colors": ["gray"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 58,
+        "name": "Black Zyia Leggings",
+        "category": "bottoms",
+        "subcategory": "leggings",
+        "colors": ["black"],
+        "styles": ["athletic", "casual", "cozy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 59,
+        "name": "Pink Ribbed Sweatpants",
+        "category": "bottoms",
+        "subcategory": "sweatpants",
+        "colors": ["pink"],
+        "styles": ["cozy", "casual"],
+        "seasons": ["spring", "fall", "winter"]
+    },
+    {
+        "id": 60,
+        "name": "Gray Sweatpants",
+        "category": "bottoms",
+        "subcategory": "sweatpants",
+        "colors": ["gray"],
+        "styles": ["casual", "cozy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 61,
+        "name": "Strappy Sandal Heels",
+        "category": "shoes",
+        "subcategory": "heels",
+        "colors": ["white", "beige"],
+        "styles": ["dressy", "boho"],
+        "seasons": ["spring", "summer"]
+    },
+    {
+        "id": 62,
+        "name": "Black Jean Shorts",
+        "category": "bottoms",
+        "subcategory": "jean_shorts",
+        "colors": ["black"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["spring", "summer"]
+    },
+    {
+        "id": 63,
+        "name": "Leather Skirt",
+        "category": "bottoms",
+        "subcategory": "skirt",
+        "colors": ["brown"],
+        "styles": ["dressy", "edgy"],
+        "seasons": ["fall"]
+    },
+    {
+        "id": 64,
+        "name": "Hollister Jean Skirt",
+        "category": "bottoms",
+        "subcategory": "skirt",
+        "colors": ["denim"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["spring", "summer"]
+    },
+    {
+        "id": 65,
+        "name": "Dark Wash Jean Shorts",
+        "category": "bottoms",
+        "subcategory": "jean_shorts",
+        "colors": ["denim"],
+        "styles": ["casual"],
+        "seasons": ["spring", "summer"]
+    },
+    {
+        "id": 66,
+        "name": "Black Nike Shorts w/ Spandex",
+        "category": "bottoms",
+        "subcategory": "athletic_shorts",
+        "colors": ["black"],
+        "styles": ["athletic"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 67,
+        "name": "Black Nike Shorts w/o Spandex",
+        "category": "bottoms",
+        "subcategory": "athletic_shorts",
+        "colors": ["black"],
+        "styles": ["athletic"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 68,
+        "name": "Black Cropped Off the Shoulder Sweatshirt",
+        "category": "tops",
+        "subcategory": "sweatshirt",
+        "colors": ["black"],
+        "styles": ["casual", "cozy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 69,
+        "name": "Pink Athletic Shorts",
+        "category": "bottoms",
+        "subcategory": "athletic_shorts",
+        "colors": ["pink"],
+        "styles": ["athletic"],
+        "seasons": ["spring", "summer"]
+    },
+    {
+        "id": 70,
+        "name": "Red Athletic Shorts",
+        "category": "bottoms",
+        "subcategory": "athletic_shorts",
+        "colors": ["burgundy"],
+        "styles": ["athletic"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 71,
+        "name": "Floral Overalls",
+        "category": "bottoms",
+        "subcategory": "overalls",
+        "colors": ["cream", "pink", "light_green"],
+        "styles": ["casual", "dressy", "boho"],
+        "seasons": ["spring", "summer"]
+    },
+    {
+        "id": 72,
+        "name": "Corduroy Overalls",
+        "category": "bottoms",
+        "subcategory": "overalls",
+        "colors": ["brown"],
+        "styles": ["casual", "dressy", "boho"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 73,
+        "name": "Pink Sugar Mtn. Sweatshirt",
+        "category": "tops",
+        "subcategory": "sweatshirt",
+        "colors": ["pink", "white"],
+        "styles": ["casual", "cozy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 74,
+        "name": "Lee Cropped Sweatshirt",
+        "category": "tops",
+        "subcategory": "sweatshirt",
+        "colors": ["navy", "burgundy", "white"],
+        "styles": ["casual", "cozy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 75,
+        "name": "Dexter and the Moonrocks Hoodie",
+        "category": "tops",
+        "subcategory": "sweatshirt",
+        "colors": ["black", "red", "white"],
+        "styles": ["casual", "cozy", "western"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 74,
+        "name": "Florida State Cropped Sweatshirt",
+        "category": "tops",
+        "subcategory": "sweatshirt",
+        "colors": ["burgundy", "yellow", "black"],
+        "styles": ["casual", "cozy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 75,
+        "name": "Nassau Sweatshirt",
+        "category": "tops",
+        "subcategory": "sweatshirt",
+        "colors": ["blue", "white"],
+        "styles": ["casual", "cozy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 76,
+        "name": "Silverdale Athletic Training Shorts",
+        "category": "bottoms",
+        "subcategory": "shorts",
+        "colors": ["black", "white"],
+        "styles": ["cozy"],
+        "seasons": ["spring", "summer"]
+    },
+    {
+        "id": 78,
+        "name": "White Camo Pants",
+        "category": "bottoms",
+        "subcategory": "jeans",
+        "colors": ["white", "gray"],
+        "styles": ["casual", "edgy"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 79,
+        "name": "Cream Long Sleeve Shirt",
+        "category": "tops",
+        "subcategory": "long_sleeve",
+        "colors": ["cream"],
+        "styles": ["casual", "dressy"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 81,
+        "name": "Pink Long Sleeve Ribbed Shirt",
+        "category": "tops",
+        "subcategory": "long_sleeve",
+        "colors": ["pink"],
+        "styles": ["casual", "dressy", "cozy"],
+        "seasons": ["spring", "summer"]
+    },
+    {
+        "id": 81,
+        "name": "Pink Ribbed T-shirt",
+        "category": "tops",
+        "subcategory": "t_shirt",
+        "colors": ["pink"],
+        "styles": ["casual", "dressy", "cozy"],
+        "seasons": ["spring", "summer"]
+    },
+    {
+        "id": 82,
+        "name": "White Jean Shorts",
+        "category": "bottoms",
+        "subcategory": "shorts",
+        "colors": ["white"],
+        "styles": ["dressy", "casual"],
+        "seasons": ["spring", "summer"]
+    },
+    {
+        "id": 83,
+        "name": "Dexter and the Moonrocks Hat",
+        "category": "accessories",
+        "subcategory": "hat",
+        "colors": ["dark_green", "cream", "black"],
+        "styles": ["casual", "edgy", "western"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+
+    },
+    {
+        "id": 84,
+        "name": "White Bow",
+        "category": "accessories",
+        "subcategory": "hair_accessory",
+        "colors": ["white"],
+        "styles": ["dressy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 85,
+        "name": "White Floral Skirt",
+        "category": "bottoms",
+        "subcategory": "skirt",
+        "colors": ["white", "pink", "light_green"],
+        "styles": ["dressy", "boho"],
+        "seasons": ["spring", "summer"]
+    },
+    {
+        "id": 86,
+        "name": "Green Floral Skirt",
+        "category": "bottoms",
+        "subcategory": "skirt",
+        "colors": ["pink", "light_green"],
+        "styles": ["dressy", "boho"],
+        "seasons": ["spring", "summer", "fall"]
+    },
+    {
+        "id": 87,
+        "name": "Brown Zig Zag Headband", 
+        "category": "accessories",
+        "subcategory": "hair_accessory",
+        "colors": ["brown"], 
+        "styles": ["casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 88,
+        "name": "Black Zig Zag Headband", 
+        "category": "accessories",
+        "subcategory": "hair_accessory",
+        "colors": ["black"], 
+        "styles": ["casual"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 87,
+        "name": "Gray Cloth Headband", 
+        "category": "accessories",
+        "subcategory": "hair_accessory",
+        "colors": ["gray"], 
+        "styles": ["casual", "athletic", "cozy"],
+        "seasons": ["spring", "summer", "fall", "winter"]
+    },
+    {
+        "id": 88,
+        "name": "White Doc Marten's",
+        "category": "shoes",
+        "subcategory": "boots", 
+        "colors": ["white", "black"],
+        "styles": ["casual", "dressy", "edgy"],
+        "seasons": ["fall", "winter"]
+    },
+    {
+        "id": 89,
+        "name": "Black Boots",
+        "category": "shoes",
+        "subcategory": "boots",
+        "colors": ["black"],
+        "styles": ["edgy", "dressy"],
+        "seasons": ["fall", "winter"]
+    }
+]
